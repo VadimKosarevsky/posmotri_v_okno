@@ -1,4 +1,4 @@
-.preloader {
+.preloader :disabled {
   position: absolute;
   inset: 0;
   display: flex;
