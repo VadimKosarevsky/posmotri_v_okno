@@ -1,4 +1,4 @@
-JSX
+JSX;
 module.exports = {
   rules: {
     'color-no-invalid-hex': true,
