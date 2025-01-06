@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Привет!'",
+    "#check": "проверяет код согласно правилам заданным в конфиге .prettierrc",
     "check": "prettier --check './**/*.{html,css,js}'",
+    "#format": "форматирует код согласно правилам заданным в конфиге .prettierrc",
     "format": "prettier --write './**/*.{html,css,js}'",
+    "#lint": "статический анализ CSS кода по шаблону '**/*.css' правилам конф. stylelint.config.js",
     "lint": "stylelint '**/*.css'",
+    "#lintfix": "исправляет стилистику и ошибки CSS по шаблону '**/*.css' правилам конф. stylelint.config.js",
     "lintfix": "stylelint '**/*.css' --fix",
     "checkAll": "npm run check && npm run lint",
     "fixAll": "npm run format && npm run lintfix"
