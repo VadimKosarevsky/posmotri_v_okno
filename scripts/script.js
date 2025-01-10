@@ -23,8 +23,8 @@ let cardsOnPageState = [];
 
 // Первая загрузка ✅
 
-showPreloader(preloaderTmp, videoContainer);
-showPreloader(preloaderTmp, cardsContainer);
+// showPreloader(preloaderTmp, videoContainer);+++++++++++++++++++++++++++
+// showPreloader(preloaderTmp, cardsContainer);+++++++++++++++++++++++++++
 mainMechanics(endpoint);
 
 // осуществляется поиск ✅
