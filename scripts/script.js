@@ -18,6 +18,8 @@ const moreButtonTmp = document.querySelector('.more-button-template');
 
 /* МЕХАНИКА */
 
+
+
 // Нужен для работы с переключателями
 let cardsOnPageState = [];
 
@@ -292,3 +294,11 @@ function showMoreCards({
     }
   });
 }
+// Забираю высоту h1 для высоты контент листа
+
+const titleElement = document.querySelector('.title');
+const titleHeight = titleElement.offsetHeight;
+const contentListElement = document.querySelector('.content__list');
+
+contentListElement.style.setProperty('--title-height', titleHeight + 'px');
+console.log( 'установил высоту контент листа', titleHeight  );
