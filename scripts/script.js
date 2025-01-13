@@ -25,9 +25,8 @@ let cardsOnPageState = [];
 
 // Первая загрузка ✅
 
-// showPreloader(preloaderTmp, videoContainer);+++++++++++++++++++++++++++
-// showPreloader(preloaderTmp, cardsContainer);+++++++++++++++++++++++++++
-mainMechanics(endpoint);
+showPreloader(preloaderTmp, videoContainer);
+showPreloader(preloaderTmp, cardsContainer);
 
 // осуществляется поиск ✅
 form.onsubmit = (e) => {
